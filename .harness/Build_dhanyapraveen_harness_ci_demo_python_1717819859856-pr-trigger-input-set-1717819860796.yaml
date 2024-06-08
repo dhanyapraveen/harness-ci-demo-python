@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_dhanyapraveen_harness_ci_demo_python_1717819859856-pr-trigger-input-set
+  identifier: Build_dhanyapraveen_harness_ci_demo_python_1717819859856prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: ACDemo
+  pipeline:
+    identifier: Build_dhanyapraveen_harness_ci_demo_python_1717819859856
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
